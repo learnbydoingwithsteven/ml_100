@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "name": "disease_diagnosis",
+    "title": "Disease Diagnosis",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 5
+  },
+  {
+    "id": 2,
+    "name": "heart_disease_risk",
+    "title": "Heart Disease Risk",
+    "algorithm": "GradientBoosting",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 3,
+    "name": "cancer_detection",
+    "title": "Cancer Detection",
+    "algorithm": "SVM",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 4,
+    "name": "diabetes_prediction",
+    "title": "Diabetes Prediction",
+    "algorithm": "LogisticRegression",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 5,
+    "name": "drug_response",
+    "title": "Drug Response Prediction",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 4
+  },
+  {
+    "id": 6,
+    "name": "hospital_readmission",
+    "title": "Hospital Readmission",
+    "algorithm": "XGBoost",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 7,
+    "name": "medical_image_classification",
+    "title": "Medical Image Classification",
+    "algorithm": "CNN",
+    "type": "classification",
+    "classes": 3
+  },
+  {
+    "id": 8,
+    "name": "patient_noshow",
+    "title": "Patient No-Show Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 9,
+    "name": "mental_health_screening",
+    "title": "Mental Health Screening",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 3
+  },
+  {
+    "id": 10,
+    "name": "stroke_prediction",
+    "title": "Stroke Prediction",
+    "algorithm": "LogisticRegression",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 11,
+    "name": "kidney_disease",
+    "title": "Kidney Disease Detection",
+    "algorithm": "SVM",
+    "type": "classification",
+    "classes": 5
+  },
+  {
+    "id": 12,
+    "name": "liver_disease",
+    "title": "Liver Disease Diagnosis",
+    "algorithm": "RandomForest",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 13,
+    "name": "pneumonia_detection",
+    "title": "Pneumonia Detection",
+    "algorithm": "GradientBoosting",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 14,
+    "name": "sepsis_warning",
+    "title": "Sepsis Early Warning",
+    "algorithm": "XGBoost",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 15,
+    "name": "alzheimers_progression",
+    "title": "Alzheimer's Progression",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 4
+  },
+  {
+    "id": 16,
+    "name": "asthma_attack",
+    "title": "Asthma Attack Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 17,
+    "name": "blood_pressure",
+    "title": "Blood Pressure Prediction",
+    "algorithm": "LinearRegression",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 18,
+    "name": "medication_adherence",
+    "title": "Medication Adherence",
+    "algorithm": "LogisticRegression",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 19,
+    "name": "emergency_triage",
+    "title": "Emergency Room Triage",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 5
+  },
+  {
+    "id": 20,
+    "name": "healthcare_cost",
+    "title": "Healthcare Cost Prediction",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 21,
+    "name": "credit_score",
+    "title": "Credit Score Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 22,
+    "name": "loan_default",
+    "title": "Loan Default Prediction",
+    "algorithm": "XGBoost",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 23,
+    "name": "stock_price",
+    "title": "Stock Price Prediction",
+    "algorithm": "LSTM",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 24,
+    "name": "fraud_detection",
+    "title": "Fraud Detection",
+    "algorithm": "IsolationForest",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 25,
+    "name": "customer_churn",
+    "title": "Customer Churn Prediction",
+    "algorithm": "RandomForest",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 26,
+    "name": "sales_forecasting",
+    "title": "Sales Forecasting",
+    "algorithm": "ARIMA",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 27,
+    "name": "customer_lifetime_value",
+    "title": "Customer Lifetime Value",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 28,
+    "name": "market_basket",
+    "title": "Market Basket Analysis",
+    "algorithm": "Apriori",
+    "type": "association",
+    "classes": 0
+  },
+  {
+    "id": 29,
+    "name": "price_optimization",
+    "title": "Price Optimization",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 30,
+    "name": "bankruptcy_prediction",
+    "title": "Bankruptcy Prediction",
+    "algorithm": "LogisticRegression",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 31,
+    "name": "insurance_claim",
+    "title": "Insurance Claim Prediction",
+    "algorithm": "RandomForest",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 32,
+    "name": "portfolio_optimization",
+    "title": "Portfolio Optimization",
+    "algorithm": "MeanVariance",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 33,
+    "name": "currency_exchange",
+    "title": "Currency Exchange Prediction",
+    "algorithm": "LSTM",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 34,
+    "name": "invoice_payment",
+    "title": "Invoice Payment Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 35,
+    "name": "employee_attrition",
+    "title": "Employee Attrition",
+    "algorithm": "RandomForest",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 36,
+    "name": "salary_prediction",
+    "title": "Salary Prediction",
+    "algorithm": "LinearRegression",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 37,
+    "name": "lead_scoring",
+    "title": "Lead Scoring",
+    "algorithm": "LogisticRegression",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 38,
+    "name": "budget_allocation",
+    "title": "Budget Allocation",
+    "algorithm": "LinearProgramming",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 39,
+    "name": "expense_classification",
+    "title": "Expense Category Classification",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 8
+  },
+  {
+    "id": 40,
+    "name": "revenue_anomaly",
+    "title": "Revenue Anomaly Detection",
+    "algorithm": "IsolationForest",
+    "type": "anomaly",
+    "classes": 2
+  },
+  {
+    "id": 41,
+    "name": "product_recommendation",
+    "title": "Product Recommendation",
+    "algorithm": "CollaborativeFiltering",
+    "type": "recommendation",
+    "classes": 0
+  },
+  {
+    "id": 42,
+    "name": "demand_forecasting",
+    "title": "Demand Forecasting",
+    "algorithm": "ARIMA",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 43,
+    "name": "customer_segmentation",
+    "title": "Customer Segmentation",
+    "algorithm": "KMeans",
+    "type": "clustering",
+    "classes": 5
+  },
+  {
+    "id": 44,
+    "name": "review_sentiment",
+    "title": "Review Sentiment Analysis",
+    "algorithm": "NaiveBayes",
+    "type": "classification",
+    "classes": 3
+  },
+  {
+    "id": 45,
+    "name": "dynamic_pricing",
+    "title": "Dynamic Pricing",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 46,
+    "name": "inventory_optimization",
+    "title": "Inventory Optimization",
+    "algorithm": "LinearProgramming",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 47,
+    "name": "product_quality",
+    "title": "Product Quality Prediction",
+    "algorithm": "RandomForest",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 48,
+    "name": "customer_service_chatbot",
+    "title": "Customer Service Chatbot",
+    "algorithm": "NLP",
+    "type": "classification",
+    "classes": 10
+  },
+  {
+    "id": 49,
+    "name": "size_recommendation",
+    "title": "Size Recommendation",
+    "algorithm": "LogisticRegression",
+    "type": "classification",
+    "classes": 5
+  },
+  {
+    "id": 50,
+    "name": "return_probability",
+    "title": "Return Probability",
+    "algorithm": "GradientBoosting",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 51,
+    "name": "cross_sell",
+    "title": "Cross-sell Prediction",
+    "algorithm": "RandomForest",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 52,
+    "name": "cart_abandonment",
+    "title": "Shopping Cart Abandonment",
+    "algorithm": "LogisticRegression",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 53,
+    "name": "product_search_ranking",
+    "title": "Product Search Ranking",
+    "algorithm": "LearningToRank",
+    "type": "ranking",
+    "classes": 0
+  },
+  {
+    "id": 54,
+    "name": "campaign_effectiveness",
+    "title": "Campaign Effectiveness",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 55,
+    "name": "store_location",
+    "title": "Store Location Optimization",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 56,
+    "name": "seasonal_demand",
+    "title": "Seasonal Demand Prediction",
+    "algorithm": "SARIMA",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 57,
+    "name": "product_bundling",
+    "title": "Product Bundling",
+    "algorithm": "Apriori",
+    "type": "association",
+    "classes": 0
+  },
+  {
+    "id": 58,
+    "name": "feedback_classification",
+    "title": "Customer Feedback Classification",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 6
+  },
+  {
+    "id": 59,
+    "name": "warranty_claim",
+    "title": "Warranty Claim Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 60,
+    "name": "visual_search",
+    "title": "Visual Search",
+    "algorithm": "CNN",
+    "type": "similarity",
+    "classes": 0
+  },
+  {
+    "id": 61,
+    "name": "traffic_flow",
+    "title": "Traffic Flow Prediction",
+    "algorithm": "LSTM",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 62,
+    "name": "ride_demand",
+    "title": "Ride Demand Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 63,
+    "name": "route_optimization",
+    "title": "Route Optimization",
+    "algorithm": "GeneticAlgorithm",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 64,
+    "name": "parking_availability",
+    "title": "Parking Availability",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 65,
+    "name": "transit_delay",
+    "title": "Public Transit Delay",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 66,
+    "name": "accident_risk",
+    "title": "Accident Risk Prediction",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 3
+  },
+  {
+    "id": 67,
+    "name": "vehicle_maintenance",
+    "title": "Vehicle Maintenance",
+    "algorithm": "RandomForest",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 68,
+    "name": "fuel_consumption",
+    "title": "Fuel Consumption Prediction",
+    "algorithm": "LinearRegression",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 69,
+    "name": "bike_sharing",
+    "title": "Bike Sharing Demand",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 70,
+    "name": "flight_delay",
+    "title": "Flight Delay Prediction",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 4
+  },
+  {
+    "id": 71,
+    "name": "cargo_load",
+    "title": "Cargo Load Optimization",
+    "algorithm": "LinearProgramming",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 72,
+    "name": "driver_behavior",
+    "title": "Driver Behavior Analysis",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 5
+  },
+  {
+    "id": 73,
+    "name": "traffic_signal",
+    "title": "Traffic Signal Optimization",
+    "algorithm": "ReinforcementLearning",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 74,
+    "name": "ev_charging",
+    "title": "EV Charging Demand",
+    "algorithm": "LSTM",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 75,
+    "name": "road_quality",
+    "title": "Road Quality Assessment",
+    "algorithm": "CNN",
+    "type": "classification",
+    "classes": 4
+  },
+  {
+    "id": 76,
+    "name": "pedestrian_flow",
+    "title": "Pedestrian Flow Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 77,
+    "name": "toll_collection",
+    "title": "Toll Collection Optimization",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 78,
+    "name": "emergency_routing",
+    "title": "Emergency Vehicle Routing",
+    "algorithm": "DijkstraOptimized",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 79,
+    "name": "car_sharing",
+    "title": "Car Sharing Availability",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 80,
+    "name": "maritime_route",
+    "title": "Maritime Route Planning",
+    "algorithm": "GeneticAlgorithm",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 81,
+    "name": "crop_yield",
+    "title": "Crop Yield Prediction",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 82,
+    "name": "weather_forecasting",
+    "title": "Weather Forecasting",
+    "algorithm": "LSTM",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 83,
+    "name": "air_quality",
+    "title": "Air Quality Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 84,
+    "name": "energy_consumption",
+    "title": "Energy Consumption Forecasting",
+    "algorithm": "ARIMA",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 85,
+    "name": "solar_efficiency",
+    "title": "Solar Panel Efficiency",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 86,
+    "name": "water_quality",
+    "title": "Water Quality Monitoring",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 4
+  },
+  {
+    "id": 87,
+    "name": "wildfire_risk",
+    "title": "Wildfire Risk Prediction",
+    "algorithm": "GradientBoosting",
+    "type": "classification",
+    "classes": 3
+  },
+  {
+    "id": 88,
+    "name": "pest_detection",
+    "title": "Pest Detection",
+    "algorithm": "CNN",
+    "type": "classification",
+    "classes": 8
+  },
+  {
+    "id": 89,
+    "name": "soil_quality",
+    "title": "Soil Quality Assessment",
+    "algorithm": "RandomForest",
+    "type": "classification",
+    "classes": 5
+  },
+  {
+    "id": 90,
+    "name": "earthquake_prediction",
+    "title": "Earthquake Prediction",
+    "algorithm": "LSTM",
+    "type": "classification",
+    "classes": 3
+  },
+  {
+    "id": 91,
+    "name": "flood_risk",
+    "title": "Flood Risk Assessment",
+    "algorithm": "GradientBoosting",
+    "type": "classification",
+    "classes": 4
+  },
+  {
+    "id": 92,
+    "name": "species_classification",
+    "title": "Species Classification",
+    "algorithm": "CNN",
+    "type": "classification",
+    "classes": 20
+  },
+  {
+    "id": 93,
+    "name": "deforestation_detection",
+    "title": "Deforestation Detection",
+    "algorithm": "CNN",
+    "type": "binary",
+    "classes": 2
+  },
+  {
+    "id": 94,
+    "name": "ocean_temperature",
+    "title": "Ocean Temperature Prediction",
+    "algorithm": "LSTM",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 95,
+    "name": "renewable_energy",
+    "title": "Renewable Energy Forecasting",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 96,
+    "name": "waste_management",
+    "title": "Waste Management Optimization",
+    "algorithm": "GeneticAlgorithm",
+    "type": "optimization",
+    "classes": 0
+  },
+  {
+    "id": 97,
+    "name": "smart_home_energy",
+    "title": "Smart Home Energy",
+    "algorithm": "LSTM",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 98,
+    "name": "noise_pollution",
+    "title": "Noise Pollution Prediction",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 99,
+    "name": "building_energy",
+    "title": "Building Energy Efficiency",
+    "algorithm": "GradientBoosting",
+    "type": "regression",
+    "classes": 0
+  },
+  {
+    "id": 100,
+    "name": "carbon_footprint",
+    "title": "Carbon Footprint Estimation",
+    "algorithm": "RandomForest",
+    "type": "regression",
+    "classes": 0
+  }
+]
