@@ -175,8 +175,7 @@ plt.colorbar(scatter, ax=ax6, label='Target')
 ax6.grid(alpha=0.3)
 
 plt.tight_layout()
-output_dir = 'c:/Users/wjbea/Downloads/learnbydoingwithsteven/ml_100/001_disease_diagnosis'
-os.makedirs(output_dir, exist_ok=True)
+output_dir = os.path.dirname(os.path.abspath(__file__))
 plt.savefig(f'{output_dir}/results.png', dpi=300, bbox_inches='tight')
 print("\n✓ Visualization saved as 'results.png'")
 

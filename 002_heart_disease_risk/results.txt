@@ -1,0 +1,46 @@
+================================================================================
+HEART DISEASE RISK PREDICTION - DETAILED RESULTS
+================================================================================
+
+DATASET INFORMATION
+----------------------------------------
+Total Samples: 2000
+Training Set: 1600 samples (80.0%)
+Testing Set: 400 samples (20.0%)
+Features: ['age', 'resting_bp', 'cholesterol', 'max_heart_rate', 'st_depression', 'num_vessels', 'fasting_bs', 'bmi']
+
+MODEL PERFORMANCE
+----------------------------------------
+Training Accuracy: 0.9537
+Testing Accuracy: 0.9025
+Cross-Val Accuracy: 0.8825 (+/- 0.0219)
+
+CLASSIFICATION METRICS
+----------------------------------------
+Precision: 0.9171
+Recall: 0.8850
+F1-Score: 0.9008
+ROC-AUC: 0.9588
+
+DETAILED CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+    Low Risk       0.89      0.92      0.90       200
+   High Risk       0.92      0.89      0.90       200
+
+    accuracy                           0.90       400
+   macro avg       0.90      0.90      0.90       400
+weighted avg       0.90      0.90      0.90       400
+
+================================================================================
+FEATURE IMPORTANCE RANKINGS
+================================================================================
+num_vessels         : 0.3359
+st_depression       : 0.2067
+cholesterol         : 0.1310
+resting_bp          : 0.0966
+age                 : 0.0664
+max_heart_rate      : 0.0660
+bmi                 : 0.0508
+fasting_bs          : 0.0466
