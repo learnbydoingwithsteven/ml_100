@@ -1,0 +1,54 @@
+﻿{
+    "$schema":  "../project.meta.schema.json",
+    "schemaVersion":  1,
+    "name":  "ml_100",
+    "title":  "100 Machine Learning Applications",
+    "kind":  "git-repository",
+    "status":  "unknown",
+    "category":  "learning-lab",
+    "description":  "A high-quality learning lab project named Ml 100, built using python and focused on learning lab concepts with rich metadata.",
+    "tags":  [
+                 "learning-lab",
+                 "course"
+             ],
+    "priority":  "unset",
+    "owner":  "",
+    "paths":  {
+                  "relative":  "ml_100",
+                  "absolute":  "F:\\learnbydoingwithsteven\\ml_100"
+              },
+    "repo":  {
+                 "hasGit":  true,
+                 "remote":  "https://github.com/learnbydoingwithsteven/ml_100.git"
+             },
+    "stack":  [
+                  "python"
+              ],
+    "entrypoints":  {
+                        "readme":  "README.md"
+                    },
+    "signals":  {
+                    "hasReadme":  true,
+                    "hasPackageJson":  false,
+                    "hasIndexHtml":  false,
+                    "hasViteConfig":  false,
+                    "hasNextConfig":  false,
+                    "hasPython":  true,
+                    "hasNotebooks":  false
+                },
+    "children":  {
+                     "count":  100,
+                     "immediateProjectSignalCount":  100
+                 },
+    "activity":  {
+                     "lastModifiedLocal":  "2026-05-11T22:41:16",
+                     "inferredActivity":  "hot"
+                 },
+    "notes":  "",
+    "metadata":  {
+                     "generated":  true,
+                     "generatedAt":  "2026-05-23T10:55:25Z",
+                     "generatedBy":  "tools/update_project_metadata.ps1",
+                     "confidence":  "inferred"
+                 }
+}
